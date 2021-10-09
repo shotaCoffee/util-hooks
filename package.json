@@ -3,11 +3,19 @@
   "version": "1.0.1",
   "description": "A collection of React hooks useful for startup development",
   "main": "useSlack.ts",
-  "scripts": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix src/**/*.ts"
+  },
   "keywords": [
     "React",
     "hooks"
   ],
   "author": "shotaCoffee",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.3"
+  }
 }

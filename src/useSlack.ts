@@ -1,7 +1,14 @@
-const useSlack = async (slackUrl: string) => {
+/* eslint-disable  @typescript-eslint/no-explicit-any */
+type MessageObj = any;
+
+interface UseSlack {
+  postMessage: (messageObj: MessageObj) => Promise<void>
+}
+
+const useSlack = (slackUrl: string): UseSlack => {
 
   // NOTE messageObj https://api.slack.com/block-kit/building
-  const postMessage = async (messageObj: any) => {
+  const postMessage = async (messageObj: MessageObj) => {
     await fetch(slackUrl, {
       method: 'POST',
       headers: {
