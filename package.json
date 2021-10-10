@@ -1,6 +1,6 @@
 {
   "name": "@shotacoffee/utilhooks",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A collection of React hooks useful for startup development",
   "main": "dist/state.cjs.js",
   "module": "dist/state.es.js",
