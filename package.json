@@ -2,9 +2,8 @@
   "name": "@shotacoffee/utilhooks",
   "version": "1.0.0",
   "description": "A collection of React hooks useful for startup development",
-  "main": "dist/state.cjs.js",
-  "module": "dist/state.es.js",
-  "browser": "dist/state.js",
+  "main": "dist/index.js",
+  "homepage": "https://github.com/shotaCoffee/util-hooks",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
