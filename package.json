@@ -1,10 +1,12 @@
 {
-  "name": "util-hooks",
+  "name": "utilhooks",
   "version": "1.0.1",
   "description": "A collection of React hooks useful for startup development",
-  "main": "useSlack.ts",
+  "main": "dist/state.cjs.js",
+  "module": "dist/state.es.js",
+  "browser": "dist/state.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
     "lint": "eslint --fix src/**/*.ts"
   },
   "keywords": [
@@ -14,8 +16,17 @@
   "author": "shotaCoffee",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "@rollup/plugin-typescript": "^8.2.5",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "eslint": "^7.32.0",
+    "rollup": "^2.58.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^1.14.1",
     "typescript": "^4.4.3"
   }
 }
