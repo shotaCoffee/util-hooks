@@ -1,6 +1,6 @@
 {
   "name": "@shotacoffee/utilhooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of React hooks useful for startup development",
   "main": "dist/index.js",
   "homepage": "https://github.com/shotaCoffee/util-hooks",
