@@ -1,5 +1,5 @@
 {
-  "name": "utilhooks",
+  "name": "@shotacoffee/utilhooks",
   "version": "1.0.1",
   "description": "A collection of React hooks useful for startup development",
   "main": "dist/state.cjs.js",
